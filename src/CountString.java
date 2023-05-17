@@ -6,9 +6,9 @@ public class CountString {
     public static void main(String[] args) {
 
 
-                String str = "My name is Sweta";
+                String str = "My name is is Sweta";
 
-                Map<String, Integer> Map = new HashMap<>();
+                HashMap<String, Integer> Map = new HashMap<>();
 
                 String[] words = str.split(" ");
 
@@ -17,7 +17,7 @@ public class CountString {
                     // i.e. true if it contains the key and false if
                     // it doesn't.
                     if (Map.containsKey(word))
-                        Map.put(word, Map.get(word) + 1);
+                        Map.put(word, Map.get(word) + 1);//insert in hash
 
                     else
                         Map.put(word, 1);
