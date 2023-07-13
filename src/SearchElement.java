@@ -15,7 +15,6 @@ public class SearchElement {
         {
             arr[i]=sc.nextInt();
         }
-
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the elements you want to search:");
         int x = scan.nextInt();

@@ -1,9 +1,9 @@
 //How do you count the occurrence of a given character in a string
-public class Occurence {
+public class Occurrence {
     public static void main(String[] args) {
         //First method
-                String str = "Sweta Mishra";
-               char ch = 'a';
+         String str = "Sweta Mishra";
+                char ch = 'a';
                 int cnt = 0;
 
                 for ( int i = 0; i < str.length(); i++) {
