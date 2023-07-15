@@ -23,8 +23,16 @@ public class ClosestSum {
     }
     public static void main(String[] args) {
 
-        int arr[] = {10, 22, 28, 29, 30, 40};
-        int n = arr.length;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of an array");
+        int n = sc.nextInt();
+
+        int arr[] = new int[10];
+        System.out.println("Enter the elements in an array:");
+        for (int i=0; i<n; i++)
+        {
+            arr[i] = sc.nextInt();
+        }
         int x = 54;
         printclosest(arr, n, x);
     }
