@@ -34,11 +34,8 @@ public class ClosestSum {
         {
             arr[i] = sc.nextInt();
         }
-<<<<<<< HEAD
         int x = 20;
-=======
-        int x = 54;
->>>>>>> d0f8657493baf411230f4d03f05ef68046e38bed
+
         printclosest(arr, n, x);
     }
 }
