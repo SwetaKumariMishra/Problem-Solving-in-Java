@@ -20,8 +20,9 @@ public class RemoveElement {
     public static void main(String[] args) {
             RemoveElement r = new RemoveElement();
             int [] nums = {1,2,2,3,4};
-            int val = 2;
+            int val = 3;
         System.out.println("Total number of elements left after removal:" +r.removeElement(nums, val));
+
     }
     }
 
