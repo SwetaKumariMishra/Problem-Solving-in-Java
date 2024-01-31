@@ -1,5 +1,4 @@
 //Given the root of a binary tree, return the inorder traversal of its nodes' values.
-
 // Structure of a Binary Tree Node
 class Node1 {
     int data;
